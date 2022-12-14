@@ -54,16 +54,7 @@ void main()
   while (!kbhit())
  {
   clrscr();
-
-  if (y1 ==1)
-  {
-   textattr(31);
-   clrscr();
-   delay(75);
-   textattr(15);
-   clrscr();
-   }
-
+  
   for (i=1;i<25;i++)
   {
    gotoxy(24,i);
